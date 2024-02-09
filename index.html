@@ -11,77 +11,156 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     /> -->
-    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
     <!-- navbar  -->
-
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
-      <div class="container-fluid width-85">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="../Assets/images/Shaligram-infotech-logo.png"
-            alt=""
-            class="img-fluid img-mxw img-mw"
-        /></a>
-        <button
-          class="navbar-toggler bg-light text-white"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header bg-dark">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              <img
-                src="../Assets/images/Shaligram-infotech-logo.png"
-                alt=""
-                class="img-fluid img-mxw img-mw"
-              />
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
+      <nav class="navbar navbar-expand-lg bg-dark mb-4">
+        <div class="container-fluid width-90">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../Assets/images/Shaligram-infotech-logo.png"
+              alt=""
+              class="img-fluid img-mxw img-mw"
+          /></a>
+          <button
+            class="navbar-toggler bg-light text-white"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header bg-dark">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img
+                  src="../Assets/images/Shaligram-infotech-logo.png"
+                  alt=""
+                  class="img-fluid img-mxw img-mw"
+                />
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-3 fs-lg-5 fw-normal text-light"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-3 fs-lg-5 fw-normal text-light"
+                    href="#"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-3 fs-lg-5 fw-normal text-light"
+                    href="#"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-3 fs-lg-5 fw-normal text-light"
+                    href="#"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link ms-lg-3 fs-lg-5 fw-normal d-lg-inline-block d-block text-start text-light custom-btn"
+                    href="#"
+                    >Account</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="offcanvas-body bg-dark">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link mx-lg-3 fs-lg-5 fw-normal text-light" aria-current="page" href="#"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-3 fs-lg-5 fw-normal text-light" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-3 fs-lg-5 fw-normal text-light" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-3 fs-lg-5 fw-normal text-light" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ms-lg-3 fs-lg-5 fw-normal d-lg-inline-block d-block text-start text-light custom-btn" href="#">Account</a>
-              </li>
-            </ul>
+        </div>
+      </nav>
+
+    <!-- grid -->
+    <div class="container-fluid px-0">
+      <div class="row gy-sm-4 mx-4 mb-4 gy-lg-0">
+        <div class="col-lg-6 px-0">
+          <div class="aside d-flex justify-content-center align-items-center fs-4 fw-semibold text-emphasis">
+            Sidebar
+          </div>
+        </div>
+        <div class="col-lg-6 px-0">
+          <div
+            class="section-1 d-flex justify-content-center align-items-center ms-lg-4 fs-4 fw-semibold text-emphasis"
+          >
+            Section-1
+          </div>
+          <div
+            class="section-2 d-flex justify-content-center align-items-center ms-lg-4 mt-4 fs-4 fw-semibold text-emphasis"
+          >
+            Section-2
           </div>
         </div>
       </div>
-    </nav>
-    <!-- grid -->
+      <div class="row mx-4 mb-4  gy-sm-4 gy-lg-0">
+        <div class="col-lg-8 px-0">
+          <div
+            class="section-3 d-flex justify-content-center align-items-center fs-4 fw-semibold text-emphasis"
+          >
+            Section-3
+          </div>
+        </div>
+        <div class="col-lg-4 px-0">
+          <div
+            class="section-4 ms-lg-4 d-flex justify-content-center align-items-center fs-4 fw-semibold text-emphasis"
+          >
+            Section-4
+          </div>
+        </div>
+      </div>
+      <div class="row mx-4 mb-4  gy-sm-4 gy-lg-0">
+        <div class="col-lg-4 px-0">
+          <div
+            class="section-5 d-flex justify-content-center align-items-center fs-4 fw-semibold text-emphasis"
+          >
+            Section-5
+          </div>
+        </div>
+        <div class="col-lg-8 px-0">
+          <div
+            class="section-6 d-flex justify-content-center align-items-center ms-lg-4 fs-4 fw-semibold text-emphasis"
+          >
+            Section-6
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- footer  -->
+    <footer class="text-center bg-dark text-light py-4 fs-6">
+      Copyright all rights reserved
+    </footer>
 
     <!-- bootstrap cdn for js -->
     <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>

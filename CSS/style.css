@@ -1,10 +1,13 @@
 
 body {
-    height: 100vh;
-    background-color: grey;
+    /* height: 100vh; */
+    /* background-color: grey; */
 }
-.width-85 {
-    width: 85%;
+.width-90 {
+    width: 90%;
+}
+.width-95 {
+    width: 97%;
 }
 
 .img-mw{
@@ -41,4 +44,38 @@ body {
     .nav-item:nth-child(5){
         align-self: center;
     }
+}
+
+
+.aside {
+    background-color: #FFCCCC;
+    min-height: 475px;
+}
+.section-1 {
+    background-color: #FFD4C7;
+    min-height: 225px;
+}
+.section-2 {
+    background-color: #FFCCCC;
+    min-height: 225px;
+}
+.section-3 {
+    background-color: #BAB9E2;
+    min-height: 250px;
+}
+.section-4 {
+    background-color: #D7BDBD;
+    min-height: 250px;
+}
+.section-5 {
+    background-color: #E1FFC3;
+    min-height: 250px;
+}
+.section-6 {
+    background-color: #77DFF5;
+    min-height: 250px;
+}
+.section-7 {
+    background-color: #D7D4BD;
+    min-height: 250px;
 }
