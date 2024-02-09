@@ -79,3 +79,6 @@ body {
     background-color: #D7D4BD;
     min-height: 250px;
 }
+.btn-close {
+    background-color: white;
+}
