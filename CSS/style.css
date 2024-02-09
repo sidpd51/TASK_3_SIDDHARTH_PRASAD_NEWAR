@@ -11,15 +11,34 @@ body {
     max-width: 160px;
 }
 
-@media(min-width: 768px){
-    .img-mw {
-        max-width: 220px;
+@media screen and (max-width: 991px){
+    
+    .navbar-toggler {
+        padding: 0.25rem 0.45rem !important;
     }
 }
 
-@media(max-width: 767px){
+@media  (min-width: 992px){
+    .img-mw {
+        max-width: 220px;
+    }
+
     .custom-btn {
-        background-color: bg-light;
-        color: text-dark;
+        background-color: #fff !important;
+        color: #000 !important;
+        padding: 0.45rem 1.15rem !important;
+        border: 1px solid black;
+        border-radius: 0.35rem;
+        padding-left: 0;
+    }
+
+    .custom-btn:hover{
+        box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.262);
+        background-color: #ffffffeb !important;
+        color: #000000cd !important;
+    }
+
+    .nav-item:nth-child(5){
+        align-self: center;
     }
 }
