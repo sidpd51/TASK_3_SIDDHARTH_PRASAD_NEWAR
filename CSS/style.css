@@ -1,0 +1,25 @@
+
+body {
+    height: 100vh;
+    background-color: grey;
+}
+.width-85 {
+    width: 85%;
+}
+
+.img-mw{
+    max-width: 160px;
+}
+
+@media(min-width: 768px){
+    .img-mw {
+        max-width: 220px;
+    }
+}
+
+@media(max-width: 767px){
+    .custom-btn {
+        background-color: bg-light;
+        color: text-dark;
+    }
+}
